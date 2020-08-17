@@ -1,0 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
+  margin: 1rem auto;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    height: auto;
+  }
+}
